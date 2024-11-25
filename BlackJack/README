@@ -1,0 +1,23 @@
+A simple and modern Blackjack game built using HTML, CSS, and JavaScript. The game is designed to be user-friendly, visually appealing, and responsive. Play against the dealer and try to reach 21 without going over!
+
+Features
+Modern UI: A clean and responsive design for an enjoyable experience.
+Game Logic:
+Player and dealer take turns.
+Dealer stands on a score of 17 or higher.
+Player can hit (draw a card) or stand (stop drawing).
+Win, lose, or tie based on Blackjack rules.
+Interactive Controls: Intuitive buttons for Hit, Stand, and Restart.
+Real-Time Scoring: Scores update dynamically as cards are drawn.
+Preview
+
+How to Play
+Objective: Reach a score as close to 21 as possible without going over.
+Hit: Draw another card.
+Stand: End your turn and let the dealer play.
+Win Conditions:
+You win if your score is closer to 21 than the dealer's without exceeding 21.
+Dealer busts by exceeding 21.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
