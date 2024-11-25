@@ -1,0 +1,22 @@
+# Handwriting Recognition Project
+
+## Project Overview
+This project is designed to accurately recognize handwritten text using a convolutional neural network (CNN). It is implemented in Python using TensorFlow and Keras. The goal is to provide a tool that can convert images of handwritten text into machine-encoded text.
+
+## Features
+- **Image Pre-processing:** Converts images to a suitable format for model training.
+- **CNN Model:** Utilizes a convolutional neural network to recognize handwritten characters.
+- **Accuracy Improvement:** Techniques like data augmentation to improve model accuracy.
+- **GUI Application:** A simple graphical user interface for easy interaction with the model.
+
+## Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package installer)
+
+### Libraries
+This project depends on several Python libraries. You can install them using pip:
+
+```bash
+pip install tensorflow keras numpy matplotlib opencv-python
