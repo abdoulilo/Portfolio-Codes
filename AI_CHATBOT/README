@@ -1,0 +1,26 @@
+# AI Chatbot
+
+## Introduction
+This AI Chatbot utilizes natural language processing (NLP) to interpret and respond to user input intelligently. Built with Python and SpaCy, it's designed to classify user intents and extract key entities from the conversation. This project can be adapted for various applications like customer support, personal assistants, or any interactive chatbot system.
+
+## Features
+- **Intent Classification:** Determines the user's purpose based on keywords within their input.
+- **Entity Extraction:** Identifies and extracts named entities such as names, places, and other specifics from the user input.
+- **SpaCy Integration:** Leverages SpaCy's NLP capabilities for text analysis.
+
+## Installation
+Ensure you have Python 3.x installed on your system. Then, clone this repository and set up a virtual environment:
+
+```bash
+git clone https://github.com/your-username/ai-chatbot.git
+cd ai-chatbot
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+
+Dependencies
+Install the necessary dependencies with pip:
+pip install -r requirements.txt
+
+Make sure to have SpaCy's language model installed:
+python -m spacy download en_core_web_sm
